@@ -1,9 +1,9 @@
 :root {
-    --color1: #10130d; /* Новый фон */
+    --color1: #10130d;
     --color2: #3C3D37;
     --color3: #697565;
     --color4: #ECDFCC;
-    --block-bg: #181C14; /* Новый цвет блока */
+    --block-bg: #181C14;
 }
 
 body {
@@ -41,7 +41,7 @@ body::after {
     width: 100%;
     height: 100%;
     background-color: var(--color1);
-    opacity: 0.75; /* 75% непрозрачность фона */
+    opacity: 0.75;
     z-index: -1;
 }
 
@@ -95,7 +95,7 @@ body::after {
 }
 
 .description {
-    font-size: clamp(1.2rem, 1.5vw, 2rem); /* Адаптивный размер текста */
+    font-size: clamp(1.2rem, 1.5vw, 2rem);
 }
 
 .links-container {
